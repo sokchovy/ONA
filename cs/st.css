@@ -21,13 +21,20 @@ h1{
   }
 }
 @media(max-width: 770px){
-	.img div a img{
+  .img div a img{
     width: 200px;
   }
 }
 @media(max-width: 414px){
   .img div a img{
-    width: 150px;
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media(max-width: 375px){
+  .img div a img{
+    width: 290px;
+    margin-left: 15px;
   }
 }
 
